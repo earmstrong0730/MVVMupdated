@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Elizabeth\\source\\repos\\MVVMupdated\\MVVMupdated\\MVVMupdated.iOS\\MVVMupdated.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Elizabeth\\source\\repos\\MVVMupdated\\MVVMupdated\\MVVMupdated.Core\\MVVMupdated.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Elizabeth\\source\\repos\\MVVMupdated\\MVVMupdated\\MVVMupdated.Core\\MVVMupdated.Core.csproj",
+        "projectName": "MVVMupdated.Core",
+        "projectPath": "C:\\Users\\Elizabeth\\source\\repos\\MVVMupdated\\MVVMupdated\\MVVMupdated.Core\\MVVMupdated.Core.csproj",
+        "packagesPath": "C:\\Users\\Elizabeth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Elizabeth\\source\\repos\\MVVMupdated\\MVVMupdated\\MVVMupdated.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Elizabeth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Binding": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Core": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Platform": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Elizabeth\\source\\repos\\MVVMupdated\\MVVMupdated\\MVVMupdated.iOS\\MVVMupdated.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Elizabeth\\source\\repos\\MVVMupdated\\MVVMupdated\\MVVMupdated.iOS\\MVVMupdated.iOS.csproj",
+        "projectName": "MVVMupdated.iOS",
+        "projectPath": "C:\\Users\\Elizabeth\\source\\repos\\MVVMupdated\\MVVMupdated\\MVVMupdated.iOS\\MVVMupdated.iOS.csproj",
+        "packagesPath": "C:\\Users\\Elizabeth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Elizabeth\\source\\repos\\MVVMupdated\\MVVMupdated\\MVVMupdated.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Elizabeth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\Users\\Elizabeth\\source\\repos\\MVVMupdated\\MVVMupdated\\MVVMupdated.Core\\MVVMupdated.Core.csproj": {
+                "projectPath": "C:\\Users\\Elizabeth\\source\\repos\\MVVMupdated\\MVVMupdated\\MVVMupdated.Core\\MVVMupdated.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Binding": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Core": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Platform": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

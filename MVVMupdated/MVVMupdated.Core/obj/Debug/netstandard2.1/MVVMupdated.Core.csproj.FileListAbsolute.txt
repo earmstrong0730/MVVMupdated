@@ -1,0 +1,8 @@
+C:\Users\Elizabeth\source\repos\MVVMupdated\MVVMupdated\MVVMupdated.Core\bin\Debug\netstandard2.1\MVVMupdated.Core.deps.json
+C:\Users\Elizabeth\source\repos\MVVMupdated\MVVMupdated\MVVMupdated.Core\bin\Debug\netstandard2.1\MVVMupdated.Core.dll
+C:\Users\Elizabeth\source\repos\MVVMupdated\MVVMupdated\MVVMupdated.Core\bin\Debug\netstandard2.1\MVVMupdated.Core.pdb
+C:\Users\Elizabeth\source\repos\MVVMupdated\MVVMupdated\MVVMupdated.Core\obj\Debug\netstandard2.1\MVVMupdated.Core.csprojAssemblyReference.cache
+C:\Users\Elizabeth\source\repos\MVVMupdated\MVVMupdated\MVVMupdated.Core\obj\Debug\netstandard2.1\MVVMupdated.Core.AssemblyInfoInputs.cache
+C:\Users\Elizabeth\source\repos\MVVMupdated\MVVMupdated\MVVMupdated.Core\obj\Debug\netstandard2.1\MVVMupdated.Core.AssemblyInfo.cs
+C:\Users\Elizabeth\source\repos\MVVMupdated\MVVMupdated\MVVMupdated.Core\obj\Debug\netstandard2.1\MVVMupdated.Core.dll
+C:\Users\Elizabeth\source\repos\MVVMupdated\MVVMupdated\MVVMupdated.Core\obj\Debug\netstandard2.1\MVVMupdated.Core.pdb
