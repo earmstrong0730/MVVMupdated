@@ -1,6 +1,9 @@
 using Android.App;
 using Android.OS;
 using Android.Widget;
+using MvvmCross.Binding;
+using MvvmCross.Binding.BindingContext;
+using MVVMupdated.Core.ViewModels;
 
 namespace MVVMupdated.Droid.Views
 {
@@ -20,6 +23,10 @@ namespace MVVMupdated.Droid.Views
             _tv = FindViewById<TextView>(Resource.Id.textView1);
 
             _tv.SetTextColor(Android.Graphics.Color.Red);
+
+            var set = this.CreateBindingSet<FirstView, FirstViewModel>();
+            set.Bind(_tv).For(v => v.TextColors).To(vm => vm.Color).WithConversion("NativeColor");
+            set.Apply();
         }
     }
 }

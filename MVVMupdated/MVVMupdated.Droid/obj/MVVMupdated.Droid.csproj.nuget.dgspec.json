@@ -145,6 +145,10 @@
               "target": "Package",
               "version": "[6.4.2, )"
             },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
             "Xamarin.Android.Support.Animated.Vector.Drawable": {
               "target": "Package",
               "version": "[28.0.0.3, )"
